@@ -1,0 +1,105 @@
+$white: #fff
+$blue: #4793FF
+$grey: #939CB0
+$grey-dark: #313131
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: 'Montserrat', sans-serif
+
+.app
+  background-image: url('./assets/cold-bg.jpg')
+  background-size: cover
+  background-position: bottom
+  transition: 2s ease
+  &--warm
+    background-image: url('./assets/warm-bg.jpg')
+
+.weather
+  min-height: 100vh
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .75))
+  padding: 25px
+  position: relative
+  &__search-box
+    width: 100%
+    margin-bottom: 20px
+    position: relative
+    border-radius: 7px
+    overflow: hidden
+  &__search-bar
+    display: block
+    width: 100%
+    padding: 15px
+    font-family: 'Montserrat', sans-serif
+    appearance: none
+    background: none
+    border: none
+    outline: none
+    background-color: rgba(255, 255, 255, 1)
+    color: $grey-dark
+    font-size: 20px
+    transition: 2s ease
+    &:focus
+      background-color: rgba(255, 255, 255, .85)
+  &__search-btn
+    position: absolute
+    top: 0
+    right: 0
+    height: 100%
+    border: none
+    font-family: 'Montserrat', sans-serif
+    background-color: $blue
+    font-size: 15px
+    padding: 10px
+    text-transform: uppercase
+    cursor: pointer
+    color: $white
+  &__forecast
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: $white
+    padding: 25px
+    border-radius: 7px
+
+.forecast
+  &__block, &__box
+    text-align: center
+  &__location
+    color: $grey
+    font-size: 32px
+    text-shadow: 0px 0px rgba(50, 50, 70, .5)
+  &__date
+    color: $grey
+    font-size: 20px
+    font-style: italic
+    text-shadow: 0px 0px rgba(50, 50, 70, .5)
+    margin-top: 12px
+  &__temp
+    position: relative
+    display: inline-block
+    padding: 8px 20px
+    color: $white
+    border-radius: 7px
+    font-size: 32px
+    background-color: $blue
+    text-shadow: 1px 2px rgba(50, 50, 70, .5)
+    margin: 13px 0
+  &__main
+    color: #939CB0
+    font-size: 30px
+    text-shadow: 0px 0px rgba(50, 50, 70, .5)
+
+.сity-not-found
+  color: $white
+  font-size: 24px
+  background-color: $blue
+  padding: 25px 50px
+  text-align: center
+  font-weight: 500
+  border-radius: 7px
