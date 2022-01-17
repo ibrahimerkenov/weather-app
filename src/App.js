@@ -3,7 +3,7 @@ import './App.sass';
 
 const api = {
   key: '8af6decb2dd5656ac1e2ce5cbf74b81b',
-  base: 'http://api.openweathermap.org/data/2.5/'
+  base: 'https://api.openweathermap.org/data/2.5/'
 }
 
 const App = () => {
