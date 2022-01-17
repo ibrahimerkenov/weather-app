@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.627b802c.chunk.css",
-    "main.js": "/static/js/main.41391b84.chunk.js",
-    "main.js.map": "/static/js/main.41391b84.chunk.js.map",
+    "main.js": "/static/js/main.4cc62144.chunk.js",
+    "main.js.map": "/static/js/main.4cc62144.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c93a8e4.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c93a8e4.js.map",
-    "static/js/2.386634f8.chunk.js": "/static/js/2.386634f8.chunk.js",
-    "static/js/2.386634f8.chunk.js.map": "/static/js/2.386634f8.chunk.js.map",
+    "static/js/2.ec0016ba.chunk.js": "/static/js/2.ec0016ba.chunk.js",
+    "static/js/2.ec0016ba.chunk.js.map": "/static/js/2.ec0016ba.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.627b802c.chunk.css.map": "/static/css/main.627b802c.chunk.css.map",
-    "static/js/2.386634f8.chunk.js.LICENSE.txt": "/static/js/2.386634f8.chunk.js.LICENSE.txt",
+    "static/js/2.ec0016ba.chunk.js.LICENSE.txt": "/static/js/2.ec0016ba.chunk.js.LICENSE.txt",
     "static/media/App.sass": "/static/media/warm-bg.6e5805ad.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2c93a8e4.js",
-    "static/js/2.386634f8.chunk.js",
+    "static/js/2.ec0016ba.chunk.js",
     "static/css/main.627b802c.chunk.css",
-    "static/js/main.41391b84.chunk.js"
+    "static/js/main.4cc62144.chunk.js"
   ]
 }
